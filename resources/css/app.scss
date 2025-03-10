@@ -12650,6 +12650,12 @@ footer .box_foot .rcol .redes_foot a:hover {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 32px;
+        @media(max-width: 1200px){
+            padding-left: 32px;
+            padding-top: 16px;
+            margin-bottom: 0;
+
+        }
     }
     
     .footer-content{
@@ -12659,7 +12665,7 @@ footer .box_foot .rcol .redes_foot a:hover {
         padding-bottom: 12px;
         @media(max-width: 900px){
             display: block;
-            text-align: center;
+            text-align: left;
         }
     }
 
@@ -12668,6 +12674,10 @@ footer .box_foot .rcol .redes_foot a:hover {
         margin-left: auto;
         margin-right: auto;
         display: block;
+        @media(max-width: 1200px){
+            padding-left: 16px;
+            padding-right: 16px;
+        }
     }
 
     .lcol {
@@ -12677,6 +12687,9 @@ footer .box_foot .rcol .redes_foot a:hover {
         float: left;
         display: flex;
         align-items: center;
+        @media(max-width: 1200px){
+            margin-bottom: 32px;
+        }
         .redes_foot a {
             color: #fff;
         }
@@ -12702,6 +12715,10 @@ footer .box_foot .rcol .redes_foot a:hover {
     }
     h2{
         text-transform: uppercase;
+        @media(max-width: 1200px){
+            font-size: 32px;
+            margin-top: 16px;
+        }
     }
     p{
         color: #fff;
