@@ -14,6 +14,60 @@
 </head>
 <body>
 
+@if(Route::current()->getName() != 'indices-atualizacao')
+@if(Route::current()->getName() == 'home')
+    <header class="header">
+@else
+    <header class="header_interna">
+@endif
+
+        <div class="central nav_central">
+            <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
+                <ul class="title-area">
+                    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+                </ul>
+                <ul class="title-area menu_fechar">
+                    <li class="toggle-topbar menu-icon"><a href="#">X</a></li>
+                </ul>
+
+                <a href="{{url('')}}" title="Legisla Brasil" id="logo_top">
+                    <img src="{{asset('img/idv-marca.png')}}" class="desk_logo" alt="Legisla Brasil">
+                    <img src="{{asset('img/idv-marca-change.png')}}" class="mobile_logo" alt="Legisla Brasil">
+                </a>
+
+                <section class="top-bar-section">
+                    <div>
+                        <ul>
+                            <li><a href="{{url('')}}" title="Início">Início</a></li>
+                            <li><a href="{{route('sobre-o-projeto')}}" title="Sobre o projeto">Sobre o
+                                    projeto 2</a></li>
+                            <li><a href="{{route('metodologia')}}" title="Metodologia">Metodologia</a></li>
+                            <li><a href="{{route('quem-somos')}}" title="Quem Somos">Quem Somos</a></li>
+                            <li><a href="{{route('contatos')}}" title="Contatos">Contatos</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="redes_top">
+                    <a href="{!! setting('social.facebook') !!}" title="" target="_blank">
+                        <i class="fa fa-facebook-square"></i>
+                    </a>
+                    <a href="{!! setting('social.linkedin') !!}" title="" target="_blank">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                    <a href="{!! setting('social.instagram') !!}" title="" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
 @if(Route::current()->getName() == 'home')
     <header class="header">
 @else
@@ -60,3 +114,6 @@
             </nav>
         </div>
     </header>
+
+@endif
+

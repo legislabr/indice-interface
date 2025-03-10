@@ -11818,6 +11818,52 @@ footer .box_foot .rcol .redes_foot a:hover {
 #contato.index-atualizacao {
   background-color: #57162F;
   padding-bottom: 0;
+  margin-top: -25px;
+  padding: 16px 0 0 !important;
+}
+#contato.index-atualizacao .page-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+#contato.index-atualizacao .footer-content {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  padding-bottom: 12px;
+}
+@media (max-width: 900px) {
+  #contato.index-atualizacao .footer-content {
+    display: block;
+    text-align: center;
+  }
+}
+#contato.index-atualizacao .box_foot {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#contato.index-atualizacao .lcol {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+#contato.index-atualizacao .lcol .redes_foot a {
+  color: #fff;
+}
+#contato.index-atualizacao .lcol .redes_foot a:hover {
+  color: #fff;
+}
+#contato.index-atualizacao .ccol p {
+  margin-top: 32px;
+  color: #fff;
 }
 
 .central.index-atualizacao__content img {

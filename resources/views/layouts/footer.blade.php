@@ -1,3 +1,7 @@
+@if(Route::current()->getName() == 'indices-atualizacao')
+
+@else
+
 <footer>
 
     <div class="central">
@@ -60,6 +64,9 @@
     </div>
 
 </footer>
+
+@endif
+
 
 <script src="{{asset('js/foundation.min.js')}}"></script>
 <script src="{{asset('js/jquery.mask.min.js')}}"></script>
