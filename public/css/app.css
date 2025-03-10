@@ -11764,6 +11764,7 @@ footer .box_foot .rcol .redes_foot a:hover {
   width: 100%;
   color: #000000;
   background: #EECFB0;
+  min-height: 100vh;
 }
 #contato .central {
   max-width: 1170px;
@@ -11820,6 +11821,7 @@ footer .box_foot .rcol .redes_foot a:hover {
   padding-bottom: 0;
   margin-top: -25px;
   padding: 16px 0 0 !important;
+  min-height: 90vh;
 }
 #contato.index-atualizacao .page-header {
   display: flex;

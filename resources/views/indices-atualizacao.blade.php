@@ -26,7 +26,7 @@
         <div class="central index-atualizacao__content">
             <div class="col_4">
 
-            <img src="{{asset('img/idv-top-home11.png')}}" alt="">   
+            <img src="{{asset('img/idv-img-home-22.png')}}" alt="">   
             
             </div>
             <div class="col_8">
