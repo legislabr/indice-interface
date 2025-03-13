@@ -55,6 +55,10 @@
                 Estamos preparando a próxima edição do Índice. Deixe seu e-mail para receber novidades em primeira mão.
                 </p>
 
+                <script src="https://js.hsforms.net/forms/embed/24356777.js" defer></script>
+                    <div class="hs-form-frame" data-region="na1" data-form-id="0c7454f9-0ff3-4fd2-941e-f8a97ed432bd" data-portal-id="24356777"></div>
+                </div>
+
                 <a class="site-link" href="https://legislabrasil.org/">Acesse o site da Legisla Brasil
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
@@ -62,10 +66,6 @@
                     </svg>
 
                 </a>
-
-                <script src="https://js.hsforms.net/forms/embed/24356777.js" defer></script>
-                    <div class="hs-form-frame" data-region="na1" data-form-id="0c7454f9-0ff3-4fd2-941e-f8a97ed432bd" data-portal-id="24356777"></div>
-                </div>
         </div>
         <div class="box_foot">
             <div class="footer-content">
